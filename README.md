@@ -1,3 +1,3 @@
 K8s- Microservices Demo
 
-- New Project Release soon...
+- Under Progress
