@@ -57,3 +57,8 @@ releases:
     chart: charts/microservice
     values:
       - values/frontend-values.yaml
+
+
+# command to execute to release helmfile
+# helmfile sync
+# helmfile list
