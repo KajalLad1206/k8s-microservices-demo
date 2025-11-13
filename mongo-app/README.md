@@ -25,25 +25,25 @@ git clone <your-repo-url>
 cd <your-folder-name>
 ```
 ### 2. Apply the Kubernetes Manifests
-
+```
 Apply all YAML files in the folder to your Kubernetes cluster:
-
+```bash
 kubectl apply -f .
-
+```
 ### 3. Verify Deployments
 
 Check that all pods, services, and StatefulSets are running:
-
+```bash
 kubectl get pods
 kubectl get svc
 kubectl get statefulsets
-
-🌐 Accessing Mongo Express
+```
+### 🌐 Accessing Mongo Express
 
 Once the deployment is complete, expose Mongo Express using a service or port-forwarding:
-
+```bash
 kubectl port-forward svc/mongo-express-service 8081:8081
-
+```
 
 Then open your browser and visit:
 
@@ -52,10 +52,11 @@ http://localhost:8081
 
 Login using the credentials stored in your secrete.yaml file.
 
-🧹 Cleanup
+### 🧹 Cleanup
 
 To remove all deployed resources:
-
+```bash
 kubectl delete -f .
+```
 
 
