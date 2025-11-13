@@ -4,26 +4,20 @@ This project contains Kubernetes manifest files to deploy a **MongoDB** database
 
 ---
 ## 📋 Prerequisites
-
-Before you begin, ensure you have the following installed and configured:
+ Before you begin, ensure you have the following installed and configured:
 
 #### Kubernetes Cluster
-
 You can use Minikube, kind, or a managed Kubernetes service (e.g., GKE, EKS, AKS).
 
 #### kubectl CLI
-
 Install from: https://kubernetes.io/docs/tasks/tools/
 
 #### Namespace (optional)
-
 You can create a separate namespace for this deployment:
 ```bash
 kubectl create namespace mongo
 ```
-
-Docker (optional)
-
+#### Docker (optional)
 Only needed if you plan to build custom images.
 
 ## 📁 Project Structure
@@ -80,6 +74,7 @@ To remove all deployed resources:
 ```bash
 kubectl delete -f .
 ```
+
 
 
 
