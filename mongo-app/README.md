@@ -24,13 +24,13 @@ This project contains Kubernetes manifest files to deploy a **MongoDB** database
 git clone <your-repo-url>
 cd <your-folder-name>
 
-2. Apply the Kubernetes Manifests
+### 2. Apply the Kubernetes Manifests
 
 Apply all YAML files in the folder to your Kubernetes cluster:
 
 kubectl apply -f .
 
-3. Verify Deployments
+### 3. Verify Deployments
 
 Check that all pods, services, and StatefulSets are running:
 
@@ -57,3 +57,4 @@ Login using the credentials stored in your secrete.yaml file.
 To remove all deployed resources:
 
 kubectl delete -f .
+
