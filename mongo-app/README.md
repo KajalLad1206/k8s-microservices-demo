@@ -1,4 +1,4 @@
-# MongoDB & Mongo Express Kubernetes Deployment
+# Simple MongoDB & Mongo Express Kubernetes Deployment
 
 This project contains Kubernetes manifest files to deploy a **MongoDB** database and **Mongo Express** (a web-based MongoDB admin interface) using **StatefulSets** and supporting configurations.
 
@@ -58,5 +58,6 @@ To remove all deployed resources:
 ```bash
 kubectl delete -f .
 ```
+
 
 
