@@ -1,5 +1,4 @@
-### Demo Project:
-Create Helm Chart for Microservices
+### Demo Project: Create Helm Chart for Microservices
 
 ---
 
