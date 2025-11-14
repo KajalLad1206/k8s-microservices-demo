@@ -5,6 +5,9 @@ Each service runs in its own Deployment and is exposed internally using a Cluste
 The `frontend` service is exposed externally using a LoadBalancer or NodePort.
 
 ---
+![Alt text](architecture-diagram.png)
+
+---
 
 ## 📦 Services Overview
 
