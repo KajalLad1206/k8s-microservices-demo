@@ -75,3 +75,4 @@ The `frontend` service is exposed externally using a LoadBalancer or NodePort.
 ### **1. Apply all manifests**
 ```sh
 kubectl apply -f <filename>.yaml
+kubectl apply -f config.yaml
