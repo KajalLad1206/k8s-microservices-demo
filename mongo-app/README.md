@@ -55,17 +55,8 @@ kubectl get svc
 kubectl get statefulsets
 ```
 ### 🌐 Accessing Mongo Express
-
-Once the deployment is complete, expose Mongo Express using a service or port-forwarding:
-```bash
-kubectl port-forward svc/mongo-express-service 8081:8081
-```
-
-Then open your browser and visit:
-
+ open your browser and visit:
 http://localhost:8081
-
-
 Login using the credentials stored in your secrete.yaml file.
 
 ### 🧹 Cleanup
@@ -74,6 +65,7 @@ To remove all deployed resources:
 ```bash
 kubectl delete -f .
 ```
+
 
 
 
