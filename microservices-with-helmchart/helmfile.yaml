@@ -1,3 +1,5 @@
+#This is better approch to deploying helm file declarative way rather than like define in install.sh 
+
 releases:
   - name: rediscart
     chart: charts/redis

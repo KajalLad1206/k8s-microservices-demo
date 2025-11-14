@@ -1,5 +1,6 @@
-helm install -f values/redis-values.yaml rediscart charts/redis
+# either you can use this file for deploying helm files by manually this way or using helmfile
 
+helm install -f values/redis-values.yaml rediscart charts/redis 
 helm install -f values/email-service-values.yaml emailservice charts/microservice
 helm install -f values/cart-service-values.yaml cartservice charts/microservice
 helm install -f values/currency-service-values.yaml currencyservice charts/microservice
