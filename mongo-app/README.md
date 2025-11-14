@@ -37,8 +37,8 @@ Only needed if you plan to build custom images.
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd <your-folder-name>
+git clone https://github.com/KajalLad1206/k8s-microservices-demo.git
+cd k8s-microservices-demo/mongo-app
 ```
 ### 2. Apply the Kubernetes Manifests
 ```
@@ -74,6 +74,7 @@ To remove all deployed resources:
 ```bash
 kubectl delete -f .
 ```
+
 
 
 
