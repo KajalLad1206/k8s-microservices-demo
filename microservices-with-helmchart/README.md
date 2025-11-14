@@ -1,8 +1,9 @@
-### Demo Project: Create Helm Chart for Microservices
-
+## Demo Project: Create Helm Chart for Microservices
 ---
 
 ![Alt text](img/architecture-diagram.png)
+---
+
 ### Technologies Used:
 Kubernetes, Helm
 
