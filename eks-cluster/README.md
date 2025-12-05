@@ -188,7 +188,7 @@ Kubernetes, AWS EKS, Eksctl, Linux
 
         eksctl create cluster
             --name demo-cluster
-            --version 1.18
+            --version 1.34
             --region us-east-1
             --nodegroup-name demo-nodes
             --node-type t2.medium
