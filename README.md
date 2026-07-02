@@ -11,7 +11,6 @@
 End-to-end, production-style deployment of a microservices application on AWS EKS, featuring automated CI/CD, versioned Helm releases, Terraform-provisioned infrastructure, and Prometheus/Grafana observability.
 
 # Kubernetes Projects
----
 ### Microservices Demo — Kubernetes Deployment
 [https://github.com/KajalLad1206/k8s-microservices-demo/blob/main/k8s-microservice-yaml/README.md](https://github.com/KajalLad1206/k8s-microservices-demo/tree/main/k8s-microservice-yaml#readme)
 
