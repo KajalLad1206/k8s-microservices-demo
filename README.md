@@ -1,4 +1,4 @@
-# Microservices on AWS EKS — Kubernetes + Helm + Jenkins + Terraform
+# Microservices on AWS EKS — Kubernetes + Helm + Jenkins 
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-1.28-blue?logo=kubernetes)
 ![Helm](https://img.shields.io/badge/Helm-3.x-blue?logo=helm)
